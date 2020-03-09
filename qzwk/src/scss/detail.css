@@ -1,0 +1,147 @@
+#detail .info {
+  overflow: hidden;
+  position: relative;
+  padding: 6.66667vw 5.33333vw 13.33333vw;
+}
+
+#detail .info .bg {
+  top: 0;
+  box-sizing: border-box;
+  z-index: -1;
+  position: absolute;
+  background-image: url(../images/1.jpg);
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-filter: blur(15px);
+  -moz-filter: blur(15px);
+  -o-filter: blur(15px);
+  -ms-filter: blur(15px);
+  filter: blur(15px);
+}
+
+#detail .info .main {
+  display: flex;
+  margin-bottom: 5.33333vw;
+}
+
+#detail .info .main img {
+  width: 24vw;
+  height: 36vw;
+}
+
+#detail .info .main .text {
+  color: #fff;
+  margin-left: 4vw;
+}
+
+#detail .info .main .text h3 {
+  color: #fff;
+  margin: 3.2vw 0 10.66667vw;
+  font-size: 5.33333vw;
+}
+
+#detail .info .main .text p {
+  margin-bottom: 2.66667vw;
+  font-size: 4.26667vw;
+  line-height: 4.26667vw;
+}
+
+#detail .info .more {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+}
+
+#detail .info .more .jianbian {
+  width: 100%;
+  position: absolute;
+  height: 5.33333vw;
+  top: -5.33333vw;
+  background-image: linear-gradient(to top, #fff, transparent);
+}
+
+#detail .btn {
+  display: flex;
+  justify-content: space-around;
+}
+
+#detail .catalog {
+  padding: 5.33333vw;
+}
+
+#detail .catalog .cataloghead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#detail .catalog .cataloghead p {
+  margin: 0;
+}
+
+#detail .catalog .cataloglist {
+  overflow: auto;
+  width: 100%;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  margin-top: 2.66667vw;
+  padding-top: 5.33333vw;
+}
+
+#detail .catalog .cataloglist ul {
+  display: flex;
+  width: max-content;
+}
+
+#detail .catalog .cataloglist ul * {
+  font-weight: normal;
+}
+
+#detail .catalog .cataloglist ul .clist {
+  display: flex;
+  width: 66.66667vw;
+  height: 34.66667vw;
+  flex: 1;
+  flex-shrink: 1;
+  margin-right: 2.66667vw;
+  overflow: hidden;
+}
+
+#detail .catalog .cataloglist ul .clist img {
+  height: 34.66667vw;
+}
+
+#detail .catalog .cataloglist ul .ctext {
+  margin-left: 4.26667vw;
+}
+
+#detail .catalog .cataloglist ul .ctext h4 {
+  font-size: 3.2vw;
+  font-weight: 900;
+  line-height: 3.73333vw;
+  margin: 3.73333vw 0;
+}
+
+#detail .update {
+  padding: 4.26667vw;
+}
+
+#detail .update h4 {
+  font-size: 4.26667vw;
+  font-weight: 900;
+}
+
+#detail .update ul li {
+  margin-bottom: 3.2vw;
+  font-size: 3.2vw;
+  line-height: 6.4vw;
+}
+
+#detail .update ul li:nth-child(2n+1) {
+  background-color: #eee;
+}

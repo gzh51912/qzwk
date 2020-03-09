@@ -1,0 +1,76 @@
+* {
+  text-align: left;
+}
+
+#register {
+  padding: 0 10.13333vw;
+}
+
+#register h2 {
+  margin: 0;
+  font-weight: 900;
+  font-size: 7.46667vw;
+  padding: 16vw 0 10.66667vw;
+  text-align: left;
+  color: #333333;
+}
+
+#register Form Input {
+  background-color: #f3f3f3;
+  height: 10.66667vw;
+  width: 100%;
+  border-radius: 5.33333vw;
+  text-indent: 8vw;
+}
+
+#register Form Input:nth-child(1) {
+  text-indent: 5.33333vw;
+}
+
+#register Form .ant-row {
+  margin-bottom: 2.66667vw;
+}
+
+#register Form .ant-row:nth-child(1) {
+  margin-bottom: 2.66667vw;
+}
+
+#register p {
+  font-size: 3.2vw;
+  line-height: 3.2vw;
+  margin-bottom: 3.73333vw;
+  color: #b3b3b3;
+}
+
+#register .reg {
+  font-weight: 900;
+}
+
+#register .regbtn {
+  width: 100%;
+  height: 10.66667vw;
+  background-color: #2ac9ad;
+  color: #fff;
+  margin-top: 10.66667vw;
+}
+
+#register .register2 {
+  text-align: center;
+  color: #2ac9ad;
+  margin: 4.8vw 0 13.66667vw;
+}
+
+#register .agreed {
+  text-align: center;
+  margin-bottom: 11.2vw;
+}
+
+#register .agreed .agreement {
+  color: #2ac9ad;
+}
+
+#register .ant-divider {
+  font-size: 2.66667vw;
+  line-height: 2.66667vw;
+  color: #e5e5e5;
+}

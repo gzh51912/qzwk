@@ -1,0 +1,85 @@
+@function vw($px){
+    @return($px/375)*100vw;
+}
+
+#pagelist{
+    background-color: #f5f5f5;
+    padding: 0 vw(16);
+    overflow: hidden;
+    h2{
+        font-weight: 900;
+        font-size: vw(16);
+        text-align: left;
+        margin: vw(20) 0 vw(20);
+        display: flex;
+        justify-content: space-between;
+        .square{
+            display: inline-block;
+            width: vw(14);
+            height: vw(14);
+            border-radius: vw(4);
+            background-color: #00a786;
+            margin-right: vw(6);
+        }
+        .changetype{
+            i{
+                margin-left: vw(10);
+            }
+        }
+    }
+
+    .list{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: transparent !important;
+        border: none;
+        li{
+            margin: 0;
+            padding: vw(8) vw(12);
+            height: auto;
+            line-height: vw(12);
+            border-radius: vw(15);
+            background-color: #fff;
+            margin-right: vw(12);
+            margin-bottom: vw(12);
+            border: 1px solid #ccc;
+        }
+        .ant-menu-item-selected{
+            background-color: #00a786;
+            color: #fff;
+        }
+    }
+
+    .fictionlist{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        li{
+            width: 45%;
+            padding: vw(14);
+            background-color: #fff;
+            border-radius: vw(8);
+            text-align: center;
+            img{
+                width: 100%;
+            }
+            .title{
+                margin: vw(10) 0 0;
+                padding: 0;
+                height: vw(36);
+                width: 100%;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+            }
+        }
+        li:first-child{
+            *{
+                font-weight: normal !important;
+                color: #666 !important;
+            }
+        }
+    }
+}

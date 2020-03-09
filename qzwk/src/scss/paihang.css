@@ -1,0 +1,126 @@
+.fentou {
+  position: fixed;
+  display: flex;
+  z-index: 5;
+  width: 100%;
+  font-size: 4vw;
+  color: #666;
+  height: 12.8vw;
+  background: #fff;
+  border-top: 0.26667vw solid white;
+  border-bottom: 0.26667vw solid white;
+  box-shadow: 3px 2px 5px 0 rgba(102, 102, 102, 0.15);
+  top: 13vw;
+}
+
+.fentou .activity a {
+  color: #51caac;
+}
+
+.fentou .activity i {
+  border-bottom: 0.8vw solid #51caac;
+  display: inline-block;
+  width: 10.13333vw;
+  position: absolute;
+  bottom: -0.26667vw;
+}
+
+.fentou li {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  font-weight: 500 !important;
+  margin-bottom: 0;
+}
+
+.fentou li a {
+  font-size: 4vw;
+  color: #666;
+}
+
+.content {
+  display: flex;
+  padding-top: 25.86667vw;
+  background: #f6f6f6;
+}
+
+.content .cont-left {
+  background: #fff;
+  position: fixed;
+  left: 0;
+  overflow: auto;
+  height: 100%;
+}
+
+.content .cont-left .checked {
+  border-left: 0.8vw solid #51caac;
+  background-color: #f6f6f6;
+}
+
+.content .cont-left li {
+  width: 16.53333vw;
+  height: 16vw;
+  font-weight: 500 !important;
+  font-size: 13px;
+  line-height: 16vw;
+  text-align: center;
+  color: #666;
+}
+
+.cont-right {
+  position: relative;
+  margin-left: 20vw;
+  background-color: #f6f6f6;
+  height: 152vw;
+}
+
+.cont-right li {
+  display: flex;
+  margin-top: 4.53333vw;
+  width: 76vw;
+  font-weight: 400 !important;
+  color: #666 !important;
+}
+
+.cont-right li img {
+  width: 16vw;
+}
+
+.cont-right div {
+  width: 100%;
+  padding-left: 3.2vw;
+}
+
+.cont-right div p {
+  margin-bottom: 0.8vw;
+  font-size: 3.2vw;
+}
+
+.cont-right div p:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f6f6f6;
+  font-size: 3.46667vw;
+}
+
+.cont-right div p:nth-child(1) .greng {
+  color: #51caac;
+}
+
+.cont-right div p:nth-child(2),
+.cont-right div p:nth-child(3) {
+  color: #999;
+}
+
+.cont-right div p:nth-child(4) span {
+  margin-right: 1.33333vw;
+}
+
+.cont-right div p:nth-child(4) span:nth-child(3) {
+  color: #51caac;
+  margin: 0;
+  float: right;
+}

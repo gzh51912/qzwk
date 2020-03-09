@@ -1,0 +1,79 @@
+@function vw($px){
+    @return($px/375)*100vw;
+}
+
+*{
+    text-align: left;
+}
+
+#register{
+    padding: 0 vw(38);
+    h2{
+        margin: 0;
+        font-weight: 900;
+        font-size: vw(28);
+        padding: vw(60) 0 vw(40);
+        text-align: left;
+        color: #333333;
+    }
+
+    Form{
+        Input{
+            background-color: #f3f3f3;
+            height: vw(40);
+            width: 100%;
+            border-radius: vw(20);
+            text-indent: vw(30);
+        }
+        Input:nth-child(1){
+            text-indent: vw(20);
+        }
+        .ant-row{
+            margin-bottom: vw(10);
+            &:nth-child(1){
+                margin-bottom: vw(10);
+            }
+        }
+    }
+
+    p{
+        font-size: vw(12);
+        line-height: vw(12);
+        margin-bottom: vw(14);
+        color: #b3b3b3;
+    }
+
+    .reg{
+        font-weight: 900;
+    }
+
+    .regbtn {
+        width: 100%;
+        height: vw(40);
+        background-color: #2ac9ad;
+        color: #fff;
+        margin-top: vw(40);
+    }
+
+    .register2{
+        text-align: center;
+        color: #2ac9ad;
+        margin: vw(18) 0 vw(51.25);
+    }
+
+    .agreed{
+        text-align: center;
+        margin-bottom: vw(42);
+        .agreement{
+            color: #2ac9ad;
+        }
+    }
+
+    .ant-divider{
+        font-size: vw(10);
+        line-height: vw(10);
+        color: #e5e5e5;
+    }
+
+}
+
