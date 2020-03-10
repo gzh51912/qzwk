@@ -82,7 +82,7 @@ class Head extends Component {
               {
                 this.state.isLogin ?
                   <>
-                    <p onClick={this.go.bind(null, '/personal')}><Icon type="user" />个人中心</p>
+                    <p><Icon type="user" />个人中心</p>
                     <p><Icon type="edit" />签到</p>
                     <p><Icon type="mail" />系统通知</p>
                     <p><Icon type="mail" />作者通知</p>

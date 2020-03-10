@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React from 'react'
+import { Component } from 'react'
 import { withRouter } from 'react-router-dom'
 import axios from 'axios'
 class Content extends Component {
@@ -129,7 +130,7 @@ class Content extends Component {
     }
     componentDidMount() {
         
-        axios.get('http://localhost:8100/a?id=1')
+        axios.get('http://118.190.52.161:8100/a?id=1')
             .then((res) => {
                 this.setState({
                     api2: res.data.item.arr
@@ -140,7 +141,7 @@ class Content extends Component {
     }
     lisits(obj) {
         let { id, name } = obj
-        axios.get('http://localhost:8100/a?id=' + id)
+        axios.get('http://118.190.52.161:8100/a?id=' + id)
             .then((res) => {
                 this.setState({
                     api2: res.data.item.arr,
